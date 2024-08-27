@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//1 litro para 3 metros
+		//capacidade da lata de 18 litros
+		//custo da lata 480 de dinheiro 
+
+		const real CAPACIDADE_LATA = 18.00
+		const real CUSTO_LATA = 480.00
+		
+		real area = 107.00 //
+		inteiro num_latas
+		real rendimento_lata = CAPACIDADE_LATA * 3.00
+
+		num_latas = area / rendimento_lata
+
+		se(num_latas < (area / rendimento_lata))
+		{
+			num_latas++
+		}
+		escreva("voce precisara de ", num_latas , " lata(s) de tinta")
+		
+	}
+}
